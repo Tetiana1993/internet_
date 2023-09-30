@@ -23,6 +23,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
+  outline: 2px solid red;
   }
 .conteiner-nav {
   display: flex;
@@ -37,24 +38,22 @@ body {
     font-family: Reem Kufi;
     font-size: 25px;
     font-weight: 400;
-    line-height: 3,75;
+    line-height: 3.75;
     text-transform: uppercase;
     margin-right: 145px;
-    padding-top: 50px;
   }
   .menu-list {
     display: flex;
    gap: 40px;
-   padding-top: 55px;
   }
   .menu-item {
     
   }
   .menu-link {
     color:#2E363E;
-font-size: 18px;
-font-weight: 500;
-line-height: 2,7;
+   font-size: 18px;
+  font-weight: 500;
+  line-height: 2.7;
   }
   .contact-link {
     color: #5F0A61;
@@ -62,7 +61,47 @@ line-height: 2,7;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 2,74;
-    padding-top: 55px;
+    line-height: 2.74;
     margin-left: 239px;
+  }
+
+  .home-page {
+   }
+  .page-img {
+  }
+  .home-content {
+  }
+  .home-page-title {
+    color: #2E363E;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    max-width: 580px;
+    line-height: 1.3;
+letter-spacing: -0.02em;
+padding-top: 203px;
+margin-bottom: 25px;
+     }
+  .home-page-descr {
+    color: #434B53;
+    font-size: 21px;
+    max-width: 434px;
+    line-height: 1.6;
+letter-spacing: -0.01em;
+margin-bottom: 25px;
+  }
+  .home-btn {
+color: #FFF;
+font-family: Inter;
+font-size: 21px;
+font-style: normal;
+font-weight: 600;
+line-height: 1.43;
+letter-spacing: -0.01;
+border-radius: 5px;
+background: #5F0A61;
+cursor: pointer;
+padding: 20px 50px;
+}
+  .home-page-img {
   }
