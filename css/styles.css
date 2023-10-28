@@ -284,3 +284,65 @@ img {
   margin-top: 5px;
   margin-left: 143px;
 }
+
+.conteiner-tariff {
+  padding-top: 183px;
+  padding-bottom: 187px;
+}
+.tariff {
+  color: #2e363e;
+  text-align: center;
+  font-family: "Inter";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33%;
+}
+.tariff-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding-left: 129px;
+  padding-right: 131px;
+  margin-top: 60px;
+}
+
+.wrap-tariff-item {
+  border-radius: 10px;
+  background: #fff;
+
+  box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.05);
+  width: 380px;
+}
+
+.tariff-item {
+}
+
+.img-tariff {
+}
+.tariff-subtitle {
+  color: #2e363e;
+  font-family: "Inter";
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-top: 47px;
+  margin-left: 35px;
+  width: 117px;
+}
+.tariff-price {
+  color: #434b53;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 50px;
+  margin-right: 35px;
+  width: 133px;
+}
+.tariff-descr {
+}
+.tariff-speed {
+}
+.tariff-link {
+}
