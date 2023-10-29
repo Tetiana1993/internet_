@@ -295,29 +295,37 @@ img {
   font-family: "Inter";
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.33%;
+  line-height: 1.33;
 }
 .tariff-list {
   list-style: none;
   display: flex;
   gap: 20px;
-  padding-left: 129px;
-  padding-right: 131px;
+  /* padding-left: 129px;
+  padding-right: 131px;  */
   margin-top: 60px;
 }
 
 .wrap-tariff-item {
+  width: 380px;
   border-radius: 10px;
   background: #fff;
-
   box-shadow: 2px 4px 15px 0px rgba(0, 0, 0, 0.05);
-  width: 380px;
 }
 
 .tariff-item {
 }
 
 .img-tariff {
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
+.wrap-descr {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
 }
 .tariff-subtitle {
   color: #2e363e;
@@ -327,7 +335,7 @@ img {
   line-height: 1.1;
   margin-top: 47px;
   margin-left: 35px;
-  width: 117px;
+  /* width: 117px; */
 }
 .tariff-price {
   color: #434b53;
@@ -337,12 +345,30 @@ img {
   font-weight: 600;
   line-height: 1.1;
   margin-top: 50px;
-  margin-right: 35px;
-  width: 133px;
+  /* width: 133px; */
 }
 .tariff-descr {
+  color: #2e363e;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 1.1;
+  width: 276px;
+  margin-top: 13px;
+  margin-left: 35px;
 }
 .tariff-speed {
+  color: #2e363e;
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 1.1;
+  /* width: 167px; */
+  margin-top: 13px;
+  margin-left: 35px;
 }
 .tariff-link {
+  color: #5f0a61;
+  font-family: "Inter";
+  font-size: 17px;
+  line-height: 1.1;
+  text-decoration-line: underline;
 }
